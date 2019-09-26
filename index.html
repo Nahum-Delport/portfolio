@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#weatherApp").click(function(){
+            $("#noHover").slideToggle("slow");
+            $("#linkTag").slideToggle("slow")
+        });
+    });
+    $(document).ready(function(){
+        $("#memGameTitle").click(function(){
+            $("#memGameInfo").slideToggle("slow");
+            $("#memGameLink").slideToggle("slow")
+        });
+        $("#conGameTitle").click(function(){
+            $("#conGameInfo").slideToggle("slow");
+            $("#conGameLink").slideToggle("slow")
+        })
+        $("#onlineTitle").click(function(){
+            $("#onlineInfo").slideToggle("slow");
+            $("#onlineLink").slideToggle("slow")
+        })
+    })
+
+</script>
+</head>
+<body>
+    <div class="parallax">
+        <h1 id="centerName">Nahum Delport</h1>
+    </div>
+    <div class=row>
+
+        <!-- Second column -->
+        <div class=column1 id="secondCol">
+            <img id="nahum" src="nahum.jpg">
+            <h3>About Me</h3>
+            <p>
+                Hi, my name is Nahum Delport and I am a Full Stack Web Developer. Nineteen years old and currently a student at CoGrammar studying full-time until December.
+				I'm experienced in various coding languages, such as: Python, JavaScript, HTML, CSS and ReactJS. I'm really friendly and dedicated to my work and studies, extremely passionate about what I do and this allows to me even surprise myself sometimes.
+                Being self-driven makes me grab on to opportunities and hold on until I have succeeded. I implore you to browse through the rest of my CV and see what I am about and what I stand for.
+            </p>
+            <hr>
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <ul>
+                    <li>ReactJS</li>
+                    <li>JSON</li>
+                    <li>JSX</li>
+                    <li>Express</li>
+                    <li>Node</li>
+                </ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <hr>
+            
+            <div id="skillsCol">
+                <!-- Second column -->
+                <h3>Skills</h3>
+                <div class=column3 id="skillsId">
+                    <p>Communication</p>
+                    <p>Leadership</p>
+                    <p>Problem Solving</p>
+                    <p>Time Management</p>
+                    <p>Customer Service</p>
+                </div>
+                <!-- First Column -->
+                <div class="column4" id="circleIcon">
+                    <p>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="far fa-circle"></span>
+                        <span class="far fa-circle"></span>
+                    </p>
+                    <p>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                    </p>
+                    <p>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="far fa-circle"></span>
+                    </p>
+                    <p>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="far fa-circle"></span>
+                    </p>
+                    <p>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                        <span class="fas fa-circle"></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    <!-- First Column -->
+        <div class="column2" id="firstCol">
+            <h1>Nahum Delport</h1>
+            <h3 style="color:grey">Junior Web Developer</h3>
+            <!-- Links -->
+            <div id="iconGroup">
+                <div id="leftIcon">
+                    <a href="#" id="phoneNumber"><i class="fas fa-mobile-alt" id="iconSpace"></i>+27 67 059 5684</a>
+                </div>
+                <div id="centerIcon">
+                    <a href="mailto:jdnahum@gmail.com?"><i class="far fa-envelope" id="iconSpace"></i>Gmail</a>
+                </div>
+                <div id="rightIcon">
+                    <a href="https://github.com/Nahum-Delport"><i class="fab fa-github" id="iconSpace"></i>Github</a>
+                </div>
+            </div>
+            <hr>
+
+            <!-- Projects -->
+            <h2>Projects</h2>
+            <div id="projects" style="display:flex">
+                <div id="weatherApp" class="rightSpace">
+                    <h3>Weather App</h3>
+                    <p class="noHover" id="noHover">To use this app: After making a request, in your URL an icon should pop up. Click on it then enable it to load unsafe scripts</p>
+                    <a id="linkTag" href="https://nahum-weather-app.herokuapp.com/">Click here!</a>
+                </div>
+                <div id="memGame" class="rightSpace">
+                    <h3 id="memGameTitle">Memory Game</h3>
+                    <p id="memGameInfo">Card matching game. Made with ReactJS and love</p>
+                    <a id="memGameLink" href="https://nahum-mem-game.herokuapp.com">Click here!</a>
+                </div>
+                <div id="conGame">
+                    <h3 id="conGameTitle">Win/Convert</h3>
+                    <p id="conGameInfo">React App with a currency converter and a card flip game</p>
+                    <a id="conGameLink" href="https://nahum-win-convert-app.herokuapp.com/">Click here!</a>
+                </div>
+            </div>
+            <br>
+            <div id="secondRow">
+                <div id="onlineStore">
+                    <h3 id="onlineTitle">Online Shop</h3>
+                    <p id="onlineInfo">A fake online shop. Made with a lot of CSS, HTML and quite a bit of JS. Feel free to interact with it</p>
+                    <a href="https://github.com/Nahum-Delport/online-shop" id="onlineLink">Click here!</a>
+                </div>
+            </div>  
+            <hr> 
+            <h2>Courses</h2>
+            <h3 style="color:grey; width: 300px">
+                Software & Full Stack Web Dev  HyperionDev
+            </h3>
+            <p style="color:grey">6 Month course coding bootcamp. Entailing JavaScript, HTML and CSS</p>
+            <br>
+            <h3 style="color:grey">Life Choices Leaders Quest</h3>
+            <p>2 Year programme of leadership training</p>
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>
