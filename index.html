@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Nahum Delport Portfolio</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
     $(document).ready(function(){
@@ -28,6 +28,10 @@
         $("#onlineTitle").click(function(){
             $("#onlineInfo").slideToggle("slow");
             $("#onlineLink").slideToggle("slow")
+        })
+        $("#todoTitle").click(function(){
+            $("#todoInfo").slideToggle("slow");
+            $("#todoLink").slideToggle("slow")
         })
     })
 
@@ -160,10 +164,16 @@
             </div>
             <br>
             <div id="secondRow">
-                <div id="onlineStore">
+                <div id="onlineStore" class="rightSpace">
                     <h3 id="onlineTitle">Online Shop</h3>
-                    <p id="onlineInfo">A fake online shop. Made with a lot of CSS, HTML and quite a bit of JS. Feel free to interact with it</p>
-                    <a href="https://github.com/Nahum-Delport/Online-store" id="onlineLink" target="_blank">Click here!</a>
+                    <p  id="onlineInfo">A fake online shop. Made with a lot of CSS, HTML and quite a bit of JS. Feel free to interact with it</p>
+                    <a  href="https://nahum-delport.github.io/updated-online-shop/index.html" 
+                        id="onlineLink" target="_blank">Click here!</a>
+                </div>
+                <div id="todoList" class="rightSpace">
+                    <h3 id="todoTitle">Todo List</h3>
+                    <p id="todoInfo">A simple project. Made a todo list app with React</p>
+                    <a href="https://nahum-todo-list.herokuapp.com/" target="_blank" id="todoLink">Click here!</a>
                 </div>
             </div>  
             <hr> 
@@ -174,7 +184,7 @@
             <p style="color:grey">6 Month course coding bootcamp. Entailing JavaScript, HTML and CSS</p>
             <br>
             <h3 style="color:grey">Life Choices Leaders Quest</h3>
-            <p style="color:grey">2 Year programme of leadership training</p>
+            <p>2 Year programme of leadership training</p>
         </div>
     </div>
 
