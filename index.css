@@ -133,7 +133,7 @@ a {
     display: none;
 }
 #onlineStore {
-    width: 200px;
+    width: 180px;
     position:  static;
 }
 #projects {
@@ -143,6 +143,19 @@ a {
     height: 160px;
     display: flex;
 }
+/* Todo List */
+#todoList {
+    color: grey;
+    width: 200px;
+}
+#todoTitle:hover {
+    color: blue;
+    cursor: pointer;
+}
+#todoLink {
+    display: none;
+}
+
 /*  */
 .grey {
     color: grey;
