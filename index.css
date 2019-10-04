@@ -1,0 +1,189 @@
+body {
+    margin: 8px;
+    font-family: 'Raleway', sans-serif; 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column1 {
+    float: left;
+    width: 32%;
+    padding: 10px;
+    color: white;
+    background-color: rgb(88, 209, 151)
+
+}
+.column2 {
+    float: right;
+    width: 67%;
+    padding: 10px;
+}
+.column3 {
+    float: left;
+    width: 50%;
+    padding: 4px;
+    color: white;
+
+}
+.column4 {
+    float: right;
+    width: 50%;
+    padding: 4px;
+}
+#iconGroup {
+    display: flex;
+    flex-wrap: nowrap; 
+    text-align: center;
+}
+#iconSpace {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 24px;
+}
+#phoneNumber {
+    text-decoration: none;
+    cursor: default;
+}
+#rightIcon {
+    margin-left: 110px;
+}
+#centerIcon {
+    margin-left: 110px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(88, 209, 151);
+}
+#skillsId {
+    display: flexbox;
+    text-align: right;
+}
+
+#weatherApp:hover {
+    color:blue;
+    text-decoration: grey;
+    cursor: pointer;
+}
+#weatherApp:hover .noHover {
+    color: grey;
+    cursor: auto;
+}
+#weatherApp {
+    color: grey;
+    width: 180px; 
+}
+#linkTag {
+    display: none;
+}
+.rightSpace {
+    margin-right: 50px;
+}
+
+/* Memory Game */
+#memGameTitle {
+    color: grey;
+    cursor: pointer;
+}
+#memGameTitle:hover {
+    color: blue;
+    cursor: pointer;
+}
+#memGame {
+    width: 250px;
+}
+#memGameInfo {
+    color: grey;
+}
+#memGameLink {
+    display: none;
+}
+
+/* Win-convert */
+
+#conGame {
+    width: 200px;
+}
+#conGameTitle {
+    color: grey;
+}
+#conGameTitle:hover {
+    color: blue;
+    cursor: pointer;
+}
+#conGameInfo {
+    color: grey;
+}
+#conGameLink {
+    display: none;
+}
+
+/* Online Shop */
+
+#onlineTitle, #onlineInfo {
+    color: grey;
+}
+#onlineTitle:hover {
+    cursor: pointer;
+    color: blue;
+}
+#onlineLink {
+    display: none;
+}
+#onlineStore {
+    width: 180px;
+    position:  static;
+}
+#projects {
+    height: 160px;
+}
+#secondRow {
+    height: 160px;
+    display: flex;
+}
+/* Todo List */
+#todoList {
+    color: grey;
+    width: 200px;
+}
+#todoTitle:hover {
+    color: blue;
+    cursor: pointer;
+}
+#todoLink {
+    display: none;
+}
+
+/*  */
+.grey {
+    color: grey;
+}
+
+/* Parallax effect */
+.parallax {
+    background-image: url("doevenbetter.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#centerName {
+    margin-left: 22.5%;
+    text-align: center;
+    font-size: 52px;
+    border: 1px solid black;
+    max-width: 700px;
+    max-height: 150px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.575);    
+}
+#nahum {
+    margin-left: 15%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+}
